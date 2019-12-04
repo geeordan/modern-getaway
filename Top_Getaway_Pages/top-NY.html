@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Modern Getaway: New York</title>
+<link href="../css/index.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="../js/index.js"></script>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <section class="header-links">
+        <a href="../index.html"><img src="../img/logos/header_logo.png"></a>        
+        <ul class="head-links">
+            <li><a href="../index.html" onclick="home()">Home</a></li>
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../faq.html">FAQ</a></li>
+        </ul>
+    </section>
+</header>
+
+<!-- Picture of Selected Top Getaway -->
+<section class="getaway_selection">
+    <img src="../img/Top_Getaways/New_York.jpg" id="getaway_pic">
+    <h2>Selected Getaway:</h2>
+    <h3 id="getaway_location">New York City, New York</h3>
+    <p>New York is one of our top getaways providing luxury rooms for an 
+    affordable price. Our staff are ready to serve with great hospitality. 
+    New York offers monuments and memorials, waterfront dining and dives, 
+    history and culture. New York’s eclectic neighborhoods bring all walks 
+    of America in the city that never sleeps.</p>
+</section>
+
+<!-- Getaway Activites -->
+<section class="getaway_activities">
+
+    <!-- Activity 1 -->
+    <figure class="getaway-activity-img">
+        <img src="../img/Activities/Wine_Tasting/Winetasting3.jpg" id="getaway_activity1_pic">
+        <figcaption class="getaway-activity-caption">
+            <h2 id="getaway_activity1_name">Wine Tasting</h2>
+            <p>Discover New York's scenic wine country with this full-day tour, complete with round-trip 
+            transport from midtown Manhattan. Visit wineries and taste several selections at each vineyard. 
+            Learn about the production process from your guide and from the winemakers.</p> 
+        </figcaption>
+    </figure> 
+
+    <!-- Activity 2 -->
+    <figure class="getaway-activity-img">
+        <img src="../img/Activities/Sightseeing/sightseeing1.jpg" id="getaway_activity2_pic">
+        <figcaption class="getaway-activity-caption">
+            <h2 id="getaway_activity2_name">Sightseeing</h2>
+            <p>On a tour to the Statue of Liberty, you have the option to stop at Ellis Island and 
+            explore the Immigration Museum. This fantastic museum is located in the historic Angel 
+            Island Immigration Station, where thousands of immigrants were processed before entering 
+            the United States. You’ll be able to visit and learn the history of this gorgeous city.</p> 
+        </figcaption>
+    </figure>
+
+    <!-- Activity 3 -->
+    <figure class="getaway-activity-img">
+        <img src="../img/Activities/Yoga/yoga1.jpg" id="getaway_activity3_pic">
+        <figcaption class="getaway-activity-caption">
+            <h2 id="getaway_activity3_name">Yoga</h2>
+            <p>It’s easy to get caught up in the busy city of New York City and never relax. 
+            Whether on vacation, visiting, or new to New York, you’ll find yourself in go mode at 
+            all times. But sometimes, you need to take a break from your busy schedule and just soak 
+            in life. That’s where yoga comes in—the perfect time to breathe, stretch, shake, and 
+            let it out.</p> 
+        </figcaption>
+    </figure>
+</section>
+
+<!-- Date Selector -->
+<section class="book_date">
+    <h1>Book this location for your dream getaway:</h1>
+    <label>Check in:</label>
+    <input type="date" name="check_in" class="date_select" id="check_in" required>
+    <label>Check out:</label>
+    <input type="date" name="check_out" class="date_select" id="check_out" required>
+    <button type="submit" class="submit_button" onclick="search_rooms_ny()">SEARCH</button>
+</section>
+
+<!-- Footer -->
+<footer class="special_footer">
+    <input type="button" class="back_button" value="<- Go Back">
+    <section class="quick-links">
+        <ul class="links">
+            <li><strong>Quick Links:</strong></li>
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../faq.html">FAQ</a></li>
+        </ul>
+    </section>
+</footer>
+
+</body>
+</html>

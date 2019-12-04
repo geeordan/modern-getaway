@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Modern Getaway: Packages</title>
+<link href="css/index.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body onload="load_details()">
+
+<!-- Header -->
+<header>
+    <section class="header-links">
+        <img src="img/logos/header_logo.png" onclick="home()">
+        <ul class="head-links">
+            <li><a href="index.html" onclick="home()">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </section>
+</header>
+
+<h1 style=text-align:center>Selected Room:</h1>
+
+<!-- Selection Details -->
+<section class="selection_details"> 
+    <img src="" id="room_pic">
+    <h2>Room Details:</h2>
+    <h3 id="room_location"></h3>
+    <h3 id="room_select"></h3>
+    <h3 id="room_price"></h3>
+</section>
+
+<!-- Packages -->
+<section class="packages">
+    <!-- Package 1 -->
+    <section class="pack">
+        <h2 id="pack1_name">Best Available Rate</h2>
+        <h1 id="pack1_price"></h1>
+        <p>Whether you’re celebrating a special day or simply in need of a quick getaway, Modern 
+        Getaway has the best package for you. This package offers complimentary Wi-Fi in your 
+        room, daily continental breakfast, and access to our exercise facilities.  Book now to 
+        receive a free dinner for two; all while enjoying the best price in Modern Getaway has 
+        to offer.</p>
+        <input type="button" class="select_button" value="Select this Option" id="pack1_button" onclick="package1()">
+    </section>
+
+    <!-- Package 2 -->
+    <section class="pack">
+        <h2 id="pack2_name">Breakfast Included</h2>
+        <h1 id="pack2_price"></h1>
+        <p>Our team creates the best breakfast to wake you up. The breakfast is provided in our 
+        Ballroom A, of which employees are waiting to welcome you to. You have a selection of 
+        breakfast options based on that day. Whether you’re planning a special occasion or simply 
+        need to unwind after a hectic work week, make the most of your stay and book our Breakfast 
+        Included package.<br><strong>Price: +$18</strong></p>
+        <input type="button" class="select_button" value="Select this Option" id="pack2_button" onclick="package2()">
+    </section>
+
+    <!-- Package 3 -->
+    <section class="pack">
+        <h2 id="pack3_name">Celebration Package</h2>
+        <h1 id="pack3_price"></h1>
+        <p>Whether you're celebrating a honeymoon, anniversary, birthday, or just a romantic night 
+        together, our Celebration Package is the perfect reason to stay at Modern Getaway. A bottle 
+        of champagne will be awaiting you in your room upon arrival. Additionally, a gourmet dinner 
+        for two and a gorgeous view will be awaiting your arrival.<br><strong>Price: +$50</strong></p>
+        <input type="button" class="select_button" value="Select this Option" id="pack3_button" onclick="package3()">
+    </section> 
+</section>
+
+<!-- Footer -->
+<footer>
+    <input type="button" class="back_button" value="<- Go Back">
+    <section class="quick-links">
+        <ul class="links">
+            <li><strong>Quick Links:</strong></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </section>
+</footer>
+
+</body>
+</html>

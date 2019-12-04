@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Modern Getaway</title>
+<link href="css/index.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+    <section class="header-links">
+        <img src="img/logos/header_logo.png" onclick="home()">
+        <ul class="head-links">
+            <li><a href="index.html" onclick="home()">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </section>
+</header>
+
+<!-- Home Initial -->
+<section class="home-initial">
+    <img src="img/logos/main_logo.png" alt="Modern Getaway logo" class="home-logo">
+        <ul class="home-links">
+            <li><a href="index.html" onclick="home()">Home</a></li>
+            <li><a href="about.html">Who Are We?</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>  
+</section>
+
+<section class="home-intro">
+    <h1 class ="title">Book your dream getaway today!</h1>
+</section>
+
+<section class="benefits">
+    <!--something was supposed to go in here??? wifi and stuffs-->
+</section>
+
+<!-- Location and Date Selector -->
+<section class="pick-location">  
+    <label>Locations:</label>
+    <input type="text" list="getaways" id="locations" placeholder="Select a location..." class="loc_date" required>
+    <datalist id="getaways">
+      <option value="Chicago, Illinois"></option>
+      <option value="Dallas, Texas"></option>
+      <option value="Honolulu, Hawaii"></option>
+      <option value="Los Angeles, California"></option>   
+      <option value="New York City, New York"></option>
+      <option value="San Francisco, California"></option>  
+    </datalist>
+    <label>Check in:</label>
+    <input type="date" name="check_in" class="loc_date" id="check_in" required>
+    <label>Check out:</label>
+    <input type="date" name="check_out" class="loc_date" id="check_out" required>
+    <button type="submit" class="submit_button" onclick="search_rooms()">SEARCH</button>
+</section>
+
+<!-- Top Getaways -->
+<section class="getaways">
+    <h1>Some of Our Top Getaways</h1>
+
+    <!-- Getaway #1 -->
+    <figure class="getaway-pic">
+        <img src="img/Top_Getaways/San_Francisco.jpg" alt="getaway pic">
+        <figcation class="getaway_button">
+            <p>Click here to book reservations in San Francisco!</p>
+            <a href="Top_Getaway_Pages/top-SF.html" class="button button-getaway">Location Booking</a>
+        </figcation>
+    </figure>
+
+    <!-- Getaway #2 -->
+    <figure class="getaway-pic">
+        <img src="img/Top_Getaways/Honolulu.jpg" alt="getaway pic">
+        <figcation class="getaway_button">
+            <p>Click here to book reservations in Honolulu!</p>
+            <a href="Top_Getaway_Pages/top-Honolulu.html" class="button button-getaway">Location Booking</a>
+        </figcation>
+    </figure>
+
+    <!-- Getaway #3 -->
+    <figure class="getaway-pic">
+        <img src="img/Top_Getaways/New_York.jpg" alt="getaway pic">
+        <figcaption class="getaway_button">
+            <p>Click here to book reservations in New York City!</p>
+            <a href="Top_Getaway_Pages/top-NY.html" class="button button-getaway">Location Booking</a>
+        </figcaption>
+    </figure>
+</section>
+
+<section class="mission-textbox">
+    <h1>Our Mission Statement</h1>
+    <p>We intend to provide hopeful travelers looking to embark on their dream getaway 
+        with a selection of reasonably priced hotels and activites that will not only save money,
+        but guarantee a pleasant vacation alike.</p>
+</section>
+
+<!-- Activities -->
+<section class="getaways">
+    <h1>Fun Activities for the Whole Family</h1>
+
+    <!-- Activity #1 -->
+    <figure class="getaway-pic">
+        <img src="img/Homepage_Activities/1Kayaking.jpg" alt="getaway pic">
+        <figcation class="getaway_button">
+            <p>Click here for more details about kayaking!</p>
+            <a href="Activity_Pages/kayaking.html" class="button button-getaway">More Details</a>
+        </figcation>
+    </figure>
+
+    <!-- Activity #2 -->
+    <figure class="getaway-pic">
+        <img src="img/Homepage_Activities/2sightseeing2.jpg" alt="getaway pic">
+        <figcation class="getaway_button">
+            <p>Click here for more details about sightseeing!</p>
+            <a href="Activity_Pages/sightseeing.html" class="button button-getaway">More Details</a>
+        </figcation>
+    </figure>
+
+    <!-- Activity #3 -->
+    <figure class="getaway-pic">
+        <img src="img/Homepage_Activities/3snorkeling3.jpg" alt="getaway pic">
+        <figcaption class="getaway_button">
+            <p>Click here for more details about snorkeling!</p>
+            <a href="Activity_Pages/snorkeling.html" class="button button-getaway">More Details</a>
+        </figcaption>
+    </figure>
+
+    <!-- Activity #4 -->
+    <figure class="getaway-pic">
+        <img src="img/Homepage_Activities/4TH3.jpg" alt="getaway pic">
+        <figcation class="getaway_button">
+            <p>Click here for more details about tennis and golf!</p>
+            <a href="Activity_Pages/tennis_golf.html" class="button button-getaway">More Details</a>
+        </figcation>
+    </figure>
+
+    <!-- Activity #5 -->
+    <figure class="getaway-pic">
+        <img src="img/Homepage_Activities/5WineTasting2.jpg" alt="getaway pic">
+        <figcation class="getaway_button">
+            <p>Click here for more details about winetasting!</p>
+            <a href="Activity_Pages/wine_tasting.html" class="button button-getaway">More Details</a>
+        </figcation>
+    </figure>
+
+    <!-- Activity #6 -->
+    <figure class="getaway-pic">
+        <img src="img/Homepage_Activities/6yoga2.jpg" alt="getaway pic">
+        <figcaption class="getaway_button">
+            <p>Click here for more details about yoga!</p>
+            <a href="Activity_Pages/yoga.html" class="button button-getaway">More Details</a>
+        </figcaption>
+    </figure>
+</section>
+
+<!-- Footer -->
+<footer>
+    <section class="quick-links">
+        <ul class="links">
+            <li><strong>Quick Links:</strong></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </section>
+</footer>
+
+<!-- Firebase Information -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-database.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCHmf_4NxbCcZxzKHogL_5FIK5TbIBTCHk",
+    authDomain: "modern-getaway.firebaseapp.com",
+    databaseURL: "https://modern-getaway.firebaseio.com",
+    projectId: "modern-getaway",
+    storageBucket: "modern-getaway.appspot.com",
+    messagingSenderId: "798530207940",
+    appId: "1:798530207940:web:bfd69aae36203d57874991"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Modern Getaway: Honolulu</title>
+<link href="../css/index.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="../js/index.js"></script>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <section class="header-links">
+        <a href="../index.html"><img src="../img/logos/header_logo.png"></a>        
+        <ul class="head-links">
+            <li><a href="../index.html" onclick="home()">Home</a></li>
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../faq.html">FAQ</a></li>
+        </ul>
+    </section>
+</header>
+
+<!-- Picture of Selected Top Getaway -->
+<section class="getaway_selection">
+    <img src="../img/Top_Getaways/Honolulu.jpg" id="getaway_pic">
+    <h2>Selected Getaway:</h2>
+    <h3 id="getaway_location">Honolulu, Hawaii</h3>
+    <p>Honolulu is one of our top getaways providing luxury rooms for an 
+    affordable price. Our staff are ready to serve with great hospitality. 
+    Honolulu is a beautiful city surrounded by water, volcanos, and beautiful 
+    landscapes. Additionally, it is home to some of the best views, parks, and 
+    hikes in the United States.</p>
+</section>
+
+<!-- Getaway Activites -->
+<section class="getaway_activities">
+
+    <!-- Activity 1 -->
+    <figure class="getaway-activity-img">
+        <img src="../img/Activities/Kayaking/Kayaking2.jpg" id="getaway_activity1_pic">
+        <figcaption class="getaway-activity-caption">
+            <h2 id="getaway_activity1_name">Kayaking</h2>
+            <p>Kayak around the islands on a guided or self-guided tour. During this half-day 
+            eco-adventure, paddle out to enjoy stunning island views from the water. Snorkel 
+            with green sea turtles and visit bird sanctuaries before enjoying a relaxing lunch 
+            on the beach.</p> 
+        </figcaption>
+    </figure> 
+
+    <!-- Activity 2 -->
+    <figure class="getaway-activity-img">
+        <img src="../img/Activities/Tennis_Golf/TG3.jpg" id="getaway_activity2_pic">
+        <figcaption class="getaway-activity-caption">
+            <h2 id="getaway_activity2_name">Tennis & Golf</h2>
+            <p>Play an 18-hole round and enjoy the stunning views of the sea and palm trees. Or 
+            enjoy playing a friendly game of tennis to take the stress off the vacation. Enjoy 
+            the views and aesthetically placed flowers and palm trees to make a gorgeous 
+            scenery. </p> 
+        </figcaption>
+    </figure>
+
+    <!-- Activity 3 -->
+    <figure class="getaway-activity-img">
+        <img src="../img/Activities/Snorkeling/Snorkeling2.jpg" id="getaway_activity3_pic">
+        <figcaption class="getaway-activity-caption">
+            <h2 id="getaway_activity3_name">Snorkeling</h2>
+            <p>Snorkel with green sea turtles on this 2-3 hour tour. Board a power catamaran and 
+            sail along towards the island's best place to spot the resident turtles. Turtle sightings 
+            are guaranteed; if a turtle is not sighted, you will be given a free second cruise. </p> 
+        </figcaption>
+    </figure>
+</section>
+
+<!-- Date Selector -->
+<section class="book_date">
+    <h1>Book this location for your dream getaway:</h1>
+    <label>Check in:</label>
+    <input type="date" name="check_in" class="date_select" id="check_in" required>
+    <label>Check out:</label>
+    <input type="date" name="check_out" class="date_select" id="check_out" required>
+    <button type="submit" class="submit_button" onclick="search_rooms_honolulu()">SEARCH</button>
+</section>
+
+<!-- Footer -->
+<footer class="special_footer">
+    <input type="button" class="back_button" value="<- Go Back">
+    <section class="quick-links">
+        <ul class="links">
+            <li><strong>Quick Links:</strong></li>
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../faq.html">FAQ</a></li>
+        </ul>
+    </section>
+</footer>
+
+</body>
+</html>

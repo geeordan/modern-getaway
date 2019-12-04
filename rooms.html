@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Modern Getaways: Rooms</title>
+<link href="css/index.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body onload="rooms_by_location()">
+
+<!-- Header -->
+<header>
+    <section class="header-links">
+        <img src="img/logos/header_logo.png" onclick="home()">
+        <ul class="head-links">
+            <li><a href="index.html" onclick="home()">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </section>
+</header>
+
+<h1 style=text-align:center id="available_rooms"></h1>
+
+<!-- Rooms -->
+<section class="rooms">
+    
+    <!-- Room 1 -->
+    <figure class="room-img">
+        <img src="" id="room1_pic">
+        <figcaption class="room-caption">
+            <h2 id="room1_name">Suite: One King Bed Studio Suite with Terrace</h2>
+            <h3 id="room1_price"></h3>
+            <p>Our suite room makes you feel at home. The terrace gives you 
+            a view to enjoy while on your stay with Modern Getaways. The room 
+            includes a mini fridge, a safe, blow dryer, and an iron.</p>
+            <input type="button" class="select_button" value="Select this Option" id="room1_button" onclick="room1()">  
+        </figcaption>
+    </figure> 
+
+    <!-- Room 2 -->
+    <figure class="room-img">
+        <img src="" id="room2_pic">
+        <figcaption class="room-caption">
+            <h2 id="room2_name">Double: Standard Room with Two Double Beds</h2>
+            <h3 id="room2_price"></h3>
+            <p>Our room is perfect for a family getaway. The room includes free 
+            parking, access to the pool and gym.  The room includes a small 
+            couch, a mini fridge, a safe, and a desk.</p>
+            <input type="button" class="select_button" value="Select this Option" id="room2_button" onclick="room2()">  
+        </figcaption>
+    </figure> 
+
+    <!-- Room 3 -->
+    <figure class="room-img">
+        <img src="" id="room3_pic">
+        <figcaption class="room-caption">
+            <h2 id="room3_name">Single: Standard Room with One Queen Bed</h2>
+            <h3 id="room3_price"></h3>
+            <p>Our room is perfect for your getaway needs. The room has a living 
+            room area and a dining area. The suite has private rooms, and access 
+            to everything the hotel has to offer.</p>
+            <input type="button" class="select_button" value="Select this Option" id="room3_button" onclick="room3()">  
+        </figcaption>
+    </figure> 
+</section>
+
+<!-- Footer -->
+<footer>
+    <input type="button" class="back_button" value="<- Go Back">
+    <section class="quick-links">
+        <ul class="links">
+            <li><strong>Quick Links:</strong></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </section>
+</footer>
+
+</body>
+</html>

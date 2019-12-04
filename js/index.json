@@ -1,0 +1,23 @@
+{
+    "reservations": [{
+        "confirmation_number": "1234",
+        "full_name": "John Doe",
+        "check_in": "2019-01-01",
+        "check_out": "2019-12-31",
+        "email": "john.doe@sjsu.edu",
+        "phone_number": "123-456-7890",
+        "location": "Honolulu, Hawaii",
+        "room_name": "Suite: One King Bed Studio Suite with Terrace",
+        "package_name": "Breakfast Included"
+    }, {
+        "confirmation_number": "4321",
+        "full_name": "Jane Doe",
+        "check_in": "2019-01-01",
+        "check_out": "2019-12-31",
+        "email": "jane.doe@sjsu.edu",
+        "phone_number": "123-456-7890",
+        "location": "San Francisco, California",
+        "room_name": "Double: Standard Room with Two Double Beds",
+        "package_name": "Celebration Package"
+    }]
+}
